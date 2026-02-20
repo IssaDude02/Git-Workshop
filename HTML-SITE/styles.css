@@ -1,6 +1,34 @@
+*{
+    margin: 0;
+    padding:0;
+}
 body{
     background-color: black;
+    padding:1rem 2rem;
 }
 p, h1{
     color: white;
+    font-family: sans-serif;
+}
+
+.orange{
+    color: #EA9C00;
+}
+.red{
+    color: #D80000;
+}
+.ACMheader{
+    display: flex;
+    
+}
+.ACMimage{
+    height: 120px;
+    width: 120px;
+    display: block;
+}
+.ACMh1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
 }
